@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:background="#C2F0EB">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="INFLUENCER FAVORIT"
+                  android:textSize="24sp"
+                  android:textStyle="bold"
+                  android:textColor="#2D85AD"
+                  android:textAlignment="center"/>
+        <android.support.v7.widget.CardView
+                android:layout_marginTop="16dp"
+                android:layout_width="200dp"
+                android:layout_height="174dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="5dp"
+                android:background="@color/colorAccent"
+                android:layout_gravity="center_horizontal">
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/aghnia"/>
+        </android.support.v7.widget.CardView>
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_margin="10dp"
+                      android:text="Paras cantik,hidung mancung dan selalu tampil fashionable dengan hijab membuat nama Aghnia Punjabi dikenal sebagai selebgram hijab dengan 200 ribuan followers. Kini namanya boleh cukup populer, namun sebelum seperti sekarang perjalanan hidupnya penuh tantangan. Aghni, begitu sapaan akrabnya pernah menjadi korban bully.Aghnia mengaku sejak di bangku sekolah dasar hingga dirinya SMA, bullying seperti sudah menjadi makanan sehari-hari. Tapi justru hinaan sampai cacian yang diterimanya membuat wanita 20 tahun itu ingin membuktikan diri bahwa ia bisa sukses. "
+                      android:textAlignment="center"/>
+        </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
