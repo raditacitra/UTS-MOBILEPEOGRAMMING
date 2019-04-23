@@ -6,15 +6,7 @@
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="match_parent"
                   android:orientation="vertical"
-                  android:background="#C2F0EB">
-        <TextView android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:layout_marginTop="10dp"
-                  android:text="INFLUENCER FAVORIT"
-                  android:textSize="24sp"
-                  android:textStyle="bold"
-                  android:textColor="#2D85AD"
-                  android:textAlignment="center"/>
+                  android:background="#C2F0EB" app:layout_constraintStart_toStartOf="parent">
         <android.support.v7.widget.CardView
                 android:layout_marginTop="16dp"
                 android:layout_width="200dp"
@@ -23,10 +15,18 @@
                 app:cardCornerRadius="5dp"
                 android:background="@color/colorAccent"
                 android:layout_gravity="center_horizontal">
-            <ImageView android:layout_width="match_parent"
+            <ImageView android:layout_width="196dp"
                        android:layout_height="match_parent"
                        android:src="@drawable/aghnia"/>
         </android.support.v7.widget.CardView>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="AGHNIA PUNJABI"
+                  android:textSize="24sp"
+                  android:textStyle="bold"
+                  android:textColor="#2D85AD"
+                  android:textAlignment="center"/>
         <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
             <TextView android:layout_width="match_parent"
                       android:layout_height="wrap_content"

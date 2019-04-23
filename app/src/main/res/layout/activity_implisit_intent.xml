@@ -8,17 +8,16 @@
         android:orientation="vertical"
         tools:context=".ImplisitIntentActivity">
 
-    <ImageView android:layout_width="match_parent"
-               android:layout_height="300dp"
+    <ImageView android:layout_width="378dp"
+               android:layout_height="262dp"
                android:id="@+id/iv"
-               android:src="@android:drawable/stat_notify_error"/>
+               android:src="@drawable/profile"/>
 
     <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnCapture"
-            android:text="Capture"
+            android:layout_height="70dp"
+            android:id="@+id/button"
+            android:text="OPEN MESSAGE"
             android:background="@color/colorAccent"
             android:textSize="20dp"
             android:textColor="@android:color/white"/>
-
 </LinearLayout>

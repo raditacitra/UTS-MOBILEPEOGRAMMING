@@ -11,7 +11,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Open Camera"/>
+            android:text="Message"/>
     <Button
             android:id="@+id/btnPindahActivityExplisit"
             android:layout_width="match_parent"
