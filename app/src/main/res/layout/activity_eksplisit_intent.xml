@@ -6,7 +6,7 @@
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="match_parent"
                   android:orientation="vertical"
-                  android:background="#C2F0EB" app:layout_constraintStart_toStartOf="parent">
+                  android:background="@color/colorAccent" app:layout_constraintStart_toStartOf="parent">
         <android.support.v7.widget.CardView
                 android:layout_marginTop="16dp"
                 android:layout_width="200dp"
